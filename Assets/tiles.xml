@@ -1,0 +1,19 @@
+<set>
+  <tiles>
+<tile name="platforms/Blueblock" symmetry="X" weight="1.0"/>
+<tile name="platforms/Yellowblock" symmetry="X" weight="1.0"/>
+<tile name="platforms/Redblock" symmetry="X" weight="1.0"/>
+<tile name="platforms/Whiteblock" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="platforms/Whiteblock 0" right="platforms/Redblock 0"/>
+  <neighbor left="platforms/Whiteblock 1" right="platforms/Whiteblock 1"/>
+  <neighbor left="platforms/Redblock 0" right="platforms/Redblock 0"/>
+  <neighbor left="platforms/Redblock 1" right="platforms/Yellowblock 1"/>
+  <neighbor left="platforms/Redblock 1" right="platforms/Whiteblock 1"/>
+  <neighbor left="platforms/Whiteblock 0" right="platforms/Yellowblock 0"/>
+  <neighbor left="platforms/Whiteblock 1" right="platforms/Blueblock 1"/>
+  <neighbor left="platforms/Yellowblock 0" right="platforms/Whiteblock 0"/>
+  <neighbor left="platforms/Yellowblock 1" right="platforms/Blueblock 1"/>
+  <neighbor left="platforms/Blueblock 0" right="platforms/Blueblock 0"/>
+	</neighbors>
+</set>
