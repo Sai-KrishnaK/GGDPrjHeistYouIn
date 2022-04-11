@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Main Camera Blend
   m_EditorClassIdentifier: 
   m_CustomBlends:
-  - m_From: CM vcam2
-    m_To: CM vcam1
+  - m_From: overworldcam
+    m_To: playercam
     m_Blend:
       m_Style: 7
-      m_Time: 2
+      m_Time: 0.5
       m_CustomCurve:
         serializedVersion: 2
         m_Curve:
@@ -42,11 +42,11 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 0
-  - m_From: CM vcam1
-    m_To: CM vcam2
+  - m_From: playercam
+    m_To: overworldcam
     m_Blend:
       m_Style: 5
-      m_Time: 2
+      m_Time: 0.5
       m_CustomCurve:
         serializedVersion: 2
         m_Curve:
