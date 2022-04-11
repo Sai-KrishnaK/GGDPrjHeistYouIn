@@ -7,6 +7,8 @@ TagManager:
   - Art Item
   - Spawnable
   - Art
+  - Enemy
+  - Enemycamera
   layers:
   - Default
   - TransparentFX
