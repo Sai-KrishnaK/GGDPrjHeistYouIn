@@ -1,6 +1,5 @@
 
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Cinemachine;
@@ -27,13 +26,13 @@ public class cinemachineswitch : MonoBehaviour
     {
         if(overworldCamera)
         {
-            vcam1.Priority = 0;
-            vcam2.Priority = 1;
+            vcam1.Priority = 1;
+            vcam2.Priority = 0;
         }
         else
         {
-            vcam1.Priority = 1;
-            vcam2.Priority = 0;
+            vcam1.Priority = 0;
+            vcam2.Priority = 1;
         }
         overworldCamera = !overworldCamera;
     }
