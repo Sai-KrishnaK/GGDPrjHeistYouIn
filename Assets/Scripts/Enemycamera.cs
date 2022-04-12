@@ -28,6 +28,7 @@ public class Enemycamera : MonoBehaviour
             if (hitInfo.collider.CompareTag("Player"))
             {
                 Destroy(hitInfo.collider.gameObject);
+                PlayerManager.isGameOver = true;
             }
         }
         else
