@@ -11,12 +11,15 @@ public class Artcollection : MonoBehaviour
     public List<GameObject> Escapeloc;
     public List<GameObject> rooms;
     public GameObject Endroom;
+    public Transform[] YellowRoomSpawnPoints;
+    public GameObject[] Collectibleprefabs;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.transform.tag == "Art")
         {
             spawnobject();
+            spawnyellowroom();
             Destroy(other.gameObject);
            
         }
@@ -63,4 +66,20 @@ public class Artcollection : MonoBehaviour
             Destroy(o);
         }
     }
+
+
+   public void spawnyellowroom()
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            int randcollectible = Random.Range(j, Collectibleprefabs.Length);
+            int randSpawnPoint = Random.Range(0, YellowRoomSpawnPoints.Length);
+
+            Instantiate(Collectibleprefabs[randcollectible], YellowRoomSpawnPoints[randSpawnPoint].position, transform.rotation);
+        }    
+        
+        
+    }
+
+
 }

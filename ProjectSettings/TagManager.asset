@@ -9,6 +9,7 @@ TagManager:
   - Art
   - Enemy
   - Enemycamera
+  - artifact
   layers:
   - Default
   - TransparentFX
