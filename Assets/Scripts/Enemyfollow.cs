@@ -28,7 +28,7 @@ public class Enemyfollow : MonoBehaviour
         }
         else 
 
-        if(Vector2.Distance(transform.position, player.position)>stoppingDistance &&  Vector2.Distance(transform.position, player.position) < retreatDistance)
+        if((Vector2.Distance(transform.position, player.position)>stoppingDistance) &&  (Vector2.Distance(transform.position, player.position) < retreatDistance))
         {
             transform.position = this.transform.position;
         }

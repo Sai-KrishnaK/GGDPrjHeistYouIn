@@ -25,7 +25,7 @@ public class PlayerManager : MonoBehaviour
         {
             gameoverscreen.SetActive(true);
         }
-        if(isGamecomp)
+        else if(isGamecomp)
         {
             SuccessScreen.SetActive(true);
         }

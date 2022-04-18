@@ -6,7 +6,7 @@ using UnityEngine;
 public class Artcollection : MonoBehaviour
 {
 
-    private float art = 0;
+    //private float art = 0;
     public int numberToSpawn;
     public List<GameObject> Escapeloc;
     public List<GameObject> rooms;
