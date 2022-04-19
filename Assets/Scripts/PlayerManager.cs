@@ -15,7 +15,7 @@ public class PlayerManager : MonoBehaviour
 
     private void Awake()
     {
-        numofcollectibles = PlayerPrefs.GetInt("numofcollectibles", 0);
+      //  numofcollectibles = PlayerPrefs.GetInt("numofcollectibles", 0);
         isGameOver = false;
         isGamecomp = false;
     }
@@ -28,7 +28,8 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scrollText.text = numofcollectibles.ToString();
+        scrollText.text = "Artifact: " + numofcollectibles;
+       // scrollText.text = numofcollectibles.ToString();
         if(isGameOver)
         {
             gameoverscreen.SetActive(true);

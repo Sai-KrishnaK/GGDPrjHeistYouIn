@@ -6,10 +6,10 @@ using UnityEngine;
 public class Artcollection : MonoBehaviour
 {
 
-    //private float art = 0;
+    private float art = 0;
     public int numberToSpawn;
     public List<GameObject> Escapeloc;
-    public List<GameObject> rooms;
+   public List<GameObject> rooms;
     public GameObject Endroom;
     public Transform[] YellowRoomSpawnPoints;
     public GameObject[] Collectibleprefabs;
@@ -36,7 +36,7 @@ public class Artcollection : MonoBehaviour
         float screenX, screenY;
         Vector2 pos;
 
-       // for (int j = 0; j < numberToSpawn; j++)
+        //for (int j = 0; j < numberToSpawn; j++)
       //{
           //  MeshCollider d = rooms(j).GetComponent<MeshCollider>();
        // }
@@ -53,18 +53,17 @@ public class Artcollection : MonoBehaviour
             Instantiate(toSpawn, pos, toSpawn.transform.rotation);
         }
     }
-
-   /// private object rooms(int j)
+ //private object rooms(int j)
    // {
     //    throw new NotImplementedException();
     //}
 
     private void destroyObjects()
-    {
-        foreach (GameObject o in GameObject.FindGameObjectsWithTag("Spawnable"))
+   {
+      foreach (GameObject o in GameObject.FindGameObjectsWithTag("Spawnable"))
         {
             Destroy(o);
-        }
+      }
     }
 
 
@@ -75,7 +74,7 @@ public class Artcollection : MonoBehaviour
             int randcollectible = Random.Range(j, Collectibleprefabs.Length);
             int randSpawnPoint = Random.Range(0, YellowRoomSpawnPoints.Length);
 
-            Instantiate(Collectibleprefabs[randcollectible], YellowRoomSpawnPoints[randSpawnPoint].position, transform.rotation);
+           Instantiate(Collectibleprefabs[randcollectible], YellowRoomSpawnPoints[randSpawnPoint].position, transform.rotation);
         }    
         
         

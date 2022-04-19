@@ -11,7 +11,12 @@ public class GameOver : MonoBehaviour
             PlayerManager.isGameOver = true;
             gameObject.SetActive(false);
         }
-        else if(collision.transform.tag == "Spawnable")
+        // else if(collision.transform.tag == "Spawnable")
+        //{
+          //  PlayerManager.isGamecomp = true;
+           // gameObject.SetActive(false);
+        //}
+            else if (collision.transform.tag == "Art")
         {
             PlayerManager.isGamecomp = true;
             gameObject.SetActive(false);
