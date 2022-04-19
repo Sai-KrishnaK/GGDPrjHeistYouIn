@@ -33,8 +33,8 @@ public class scrollhandler : MonoBehaviour
         else
         {
             scrolls[0].SetActive(true);
-            scrolls[1].SetActive(true);
-            scrolls[2].SetActive(true);
+            //scrolls[1].SetActive(true);
+            //scrolls[2].SetActive(true);
         }
     }
 

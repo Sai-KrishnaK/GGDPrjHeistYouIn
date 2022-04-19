@@ -19183,9 +19183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrolls:
-  - {fileID: 0}
   - {fileID: 574311899}
-  - {fileID: 0}
 --- !u!4 &1214875688
 Transform:
   m_ObjectHideFlags: 0
