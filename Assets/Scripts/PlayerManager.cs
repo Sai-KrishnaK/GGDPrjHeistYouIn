@@ -42,10 +42,22 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    public void NxxtLevel()
+    {
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(3);
+    }
     public void ReplayLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(2);
     }
+
+
+    //  public void LoadLevel(int index)
+    //  {
+    //      SceneManager.LoadScene(index);
+    //  }
 
 
 
