@@ -3884,7 +3884,7 @@ RectTransform:
   - {fileID: 346492862}
   - {fileID: 168386742}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4103,7 +4103,7 @@ Transform:
   - {fileID: 1235316754}
   - {fileID: 347281479}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &559095969
 GameObject:
@@ -5820,7 +5820,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &846901229
 GameObject:
@@ -22777,7 +22777,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SuccessScreen: {fileID: 168386741}
   gameoverscreen: {fileID: 346492859}
-  levelstatus: {fileID: 0}
   scrollText: {fileID: 622110179}
 --- !u!4 &1786408329
 Transform:
