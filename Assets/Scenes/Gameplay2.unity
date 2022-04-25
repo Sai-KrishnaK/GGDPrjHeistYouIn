@@ -5325,7 +5325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 100
   distance: 3
   lineofsight: {fileID: 1673644159}
 --- !u!58 &1037722952
@@ -18732,7 +18732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 75
   distance: 2.64
   lineofsight: {fileID: 1120818543}
 --- !u!58 &1083966187
@@ -18981,7 +18981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 100
   distance: 2.64
   lineofsight: {fileID: 2030063010}
 --- !u!58 &1128146346
@@ -24715,7 +24715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 100
   distance: 2.64
   lineofsight: {fileID: 664836931}
 --- !u!58 &1283998420
@@ -24833,7 +24833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 100
   distance: 2.64
   lineofsight: {fileID: 2017177569}
 --- !u!58 &1285477207
@@ -25046,7 +25046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 100
   distance: 2.64
   lineofsight: {fileID: 1399086772}
 --- !u!58 &1303699181
@@ -28074,7 +28074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 50
   distance: 2.64
   lineofsight: {fileID: 1140684950}
 --- !u!58 &1455476456
@@ -29722,7 +29722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 100
   distance: 2.64
   lineofsight: {fileID: 2085327513}
 --- !u!58 &1558205623
@@ -31666,7 +31666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 100
   distance: 2.64
   lineofsight: {fileID: 1179406869}
 --- !u!58 &1953322083
@@ -31917,7 +31917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac85067ba56fd48a8948339bc4d5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotspeed: 10
+  rotspeed: 100
   distance: 2.64
   lineofsight: {fileID: 419625138}
 --- !u!58 &2006734491
